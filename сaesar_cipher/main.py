@@ -11,7 +11,7 @@ else:
     var_1 = 'А'
     var_2 = 'а'
 
-if code == 'ee':
+if code == 'e':
     new_line = [(i, chr(ord((var_1, var_2)[i.islower()]) + (ord(i) - ord((var_1, var_2)[i.islower()]) + rot) % lang))[i.isalpha()] for i in text]
 else:
     new_line = [(i, chr(ord((var_1, var_2)[i.islower()]) + lang - 1 - (ord((var_1, var_2)[i.islower()]) + lang - 1 - ord(i) + rot) % lang))[i.isalpha()] for i in text]
